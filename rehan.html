@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>!!Rehan khan</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: #222;
+        }
+
+        .navbar {
+            padding: .8rem;
+        }
+
+        .navbar-nav li {
+            padding-right: 20px;
+        }
+
+        .nav-link {
+            font-size: 1.1em !important;
+        }
+
+        .carousel-inner>.item {
+            -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+            -o-transition: -o-transform 1.2s ease-in-out !important;
+            transition: transform 1.2s ease-in-out !important;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-outline-light {
+            color: #000;
+            background-color: rgb(54, 50, 50);
+            border-color: rgb(54, 50, 50);
+        }
+
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .carousel-caption h1 {
+            font-size: 500%;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 15px #000;
+        }
+
+        .btn-info {
+            background-color: rgb(131, 125, 138);
+            border: 1px solid rgb(131, 125, 138);
+        }
+
+        .btn-info:hover {
+            background-color: rgb(182, 172, 172);
+            border: 1px solid rgb(182, 172, 172);
+        }
+
+        .jumbotron {
+            padding: 1rem;
+            border-radius: 0;
+        }
+
+        .padding {
+            padding-bottom: 2rem;
+        }
+
+        .welcome {
+            width: 75%;
+            margin: 0 auto;
+            padding-top: 2rem;
+        }
+
+        .welcome hr {
+            border-top: 2px solid #b4b4b4;
+            width: 95%;
+            margin-top: .3rem;
+            margin-bottom: 1rem;
+        }
+
+        .fa-html5 {
+            color: orangered;
+        }
+
+        .fa-bold {
+            color: rgb(63, 63, 158);
+        }
+
+        .fa-css3 {
+            color: #2163af;
+        }
+
+        .fa-html5,
+        .fa-bold,
+        .fa-css3 {
+            font-size: 3em;
+            margin: 1rem;
+        }
+
+        .fixed {
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .social a {
+            font-size: 3em;
+            padding: 3rem;
+        }
+
+        .fa-facebook {
+            color: #3b5998;
+        }
+
+        .fa-twitter {
+            color: #00aced;
+        }
+
+        .fa-google-plus {
+            color: #dd4b39;
+        }
+
+        .fa-instagram {
+            color: #3f729b;
+        }
+
+        .fa-youtube {
+            color: #bb0000;
+        }
+
+        .fa-facebook:hover,
+        .fa-twitter:hover,
+        .fa-google-plus:hover,
+        .fa-instagram:hover,
+        .fa-youtube:hover {
+            color: #d5d5d5;
+        }
+
+        footer {
+            background-color: #3f3f3f;
+            color: #d5d5d5;
+            padding-top: 2rem;
+        }
+
+        hr.light {
+            border-top: 1px solid #dfdfdf;
+            width: 75%;
+        }
+
+        .btn {
+            border-radius: 30px;
+        }
+
+        .img-fluid {
+            border: 5px solid gainsboro;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .fa-apple {
+            font-size: 2em;
+        }
+
+        .padding2 {
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- navigation -->
+
+<!--     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="https://www.instagram.com/rehankhan12.21/" class="navbar-brand "><img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/70648113_474650446725520_5416086006594011136_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_ohc=LV7Vm_ZRtQkAX_Knrpu&oh=6da0ae2f0f203f876ff3b20db1ada349&oe=5ED854F0",class="img-fluid" alt="Responsive image"></a>
+            <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        </div>
+<!--  --> 
+<div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead" style="justify-content: center;">
+                            Happy Birthday Rehan Khan</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- carousel -->
+
+    <div class="carousel slide" data-ride="carousel" id="slides">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95589280_1452771184902723_4210517633343908228_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=GJfD3UTELAkAX89XctU&oh=4f3632b79a7361a6106990e083d1aeee&oe=5ED9E4B3" alt="" class="fluid">
+                <div class="carousel-caption">
+                    <!-- <h1 class="animated infinite bounce delay-s">Example</h1> -->
+
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95617786_863191487483544_612592159135049396_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=rrkmBt9z-4EAX95yfNk&oh=f39e913c4f320cf9750ee7aadc204a5e&oe=5ED74A99" alt="" class="fluid">
+                <div class="carousel-caption">
+
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95345203_230820061562635_2870101224794761073_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=0ZBjHVUL_nQAX9rj6cH&oh=70f7e9a044571ed6a35d104f31776e59&oe=5ED8E45E" alt="" class="fluid">
+                <div class="carousel-caption">
+
+                    </h2>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95261986_958420751595423_5560820290779264246_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=iRQ-yTL3IPUAX8zSDWU&oh=806bd26180b4231e3263b956418540a9&oe=5ED8FA9D" alt="" class="fluid">
+                <div class="carousel-caption">
+
+                    </h2>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- jumbotron  -->
+
+
+
+
+
+    <!-- welcome -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4"> Rehan meaning- king(in urdu)</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">    
+                    A Gem of a person <br>person with big heart<br>can be perfectlty described as person with brain but not beauity
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- 
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4"> Qualities </h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">    
+                    Photo freak
+
+                </p>
+                                <a href="#" class="btn btn-primary ">Learn More</a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+ -->
+    <!-- two-column section  -->
+
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4"> Rehan's quality</h1>
+            </div></div></div>
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class=" col-lg-6">
+                <p class="lead">    
+                    Photo freak
+
+                
+            </div>
+
+            <div class="col-lg-6 padding ">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95345822_1124018984623889_619341155184688411_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=M1d1I-7JdwoAX-bDyEt&oh=a48c49eb24629fdeb073e6a1f8d02832&oe=5ED75D60" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class=" col-lg-6">
+                <p class="lead">    
+                    creative person
+
+                
+            </div>
+
+            <div class="col-lg-6 padding ">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95793219_138226611155478_897703366296120754_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=LYzZtKX-c74AX82B1lA&oh=0d776bd1bd998e9471f2b3a708868591&oe=5ED9870C" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class=" col-lg-6">
+                <p class="lead">    
+                schools most nerd kid
+                
+            </div>
+
+            <div class="col-lg-6 padding ">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95583746_233212111286437_7073755989967964013_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=z8ggILXjHggAX-BPwPa&oh=e0362ef116c68293da144bca3b1aa39b&oe=5ED95DD7" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class=" col-lg-6">
+                <p class="lead">    
+                ugly looks
+                
+            </div>
+
+            <div class="col-lg-6 padding ">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95569671_249000879798518_6005355372706803487_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=oWSiA5bthmYAX8uyI15&oh=ff1da60e408af7f1ea1d5d989f1510e7&oe=5ED97EE4" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class=" col-lg-6">
+                <p class="lead">    
+                sda's tiny jordan
+                </p>
+
+            </div>
+
+            <div class="col-lg-6 padding "><div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://instagram.fbom2-1.fna.fbcdn.net/v/t50.2886-16/95555860_2690291791080165_5228742376821631826_n.mp4?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=eRNyGgWgdh4AX9h_dV4&oe=5EB0B481&oh=cafdbe9db7d899ff85b80820e2c644a1" allowfullscreen></iframe>
+</div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class=" col-lg-6">
+                <p class="lead">    
+                can pass out any where</p>                    
+            </div>
+
+            <div class="col-lg-6 padding "><div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://instagram.fbom2-1.fna.fbcdn.net/v/t50.2886-16/96031952_561871458072097_7883440228395222408_n.mp4?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=EOh0_c1-UJEAX-7Ci35&oe=5EB12925&oh=2a5f6b94051a55a731cabe0c96b47e5a" allowfullscreen></iframe>
+</div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+    <!-- meet the team -->
+
+
+    <div class="container-fluid padding">
+        <div class="row welcome text-center ">
+            <div class="col-12">
+                <h1 class="display-4 ">His inspiration</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- cards -->
+
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class="col-md-4 ">
+                <div class="card ">
+                    <img src="https://imgix.bustle.com/uploads/getty/2019/4/22/a2c56171-b1e9-44ca-a7d4-7cf2596e6423-getty-1142849042.jpg" class="card-img-top" alt="">
+                    <div class="card-body ">
+                        <h4 class="card-title"> Robert Downey</h4>
+                                          </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card ">
+                    <img src="https://www.thebalancesmb.com/thmb/sKgll96Y1fS8le30SzE7GrClp_I=/3000x2096/filters:fill(auto,1)/apple-ceo-jobs-delivers-keynote-at-worldwide-developers-conference--2105515-5c04912dc9e77c0001acab1d.jpg" class="card-img-top" alt="">
+                    <div class="card-body ">
+                        <h4 class="card-title"> Steve Jobs</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card ">
+                    <img src="https://i10.dainikbhaskar.com/thumbnails/730x548/web2images/www.dailybhaskar.com/2016/12/13/alom_1_1481621114.jpg" class="card-img-top" alt="">
+                    <div class="card-body ">
+                        <h4 class="card-title">Hero Alom</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+
+
+    <!-- our Philosophy -->
+    <div class="container-fluid padding">
+        <div class="row padding ">
+            <div class="col-lg-6 padding ">
+                <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/95345203_230820061562635_2870101224794761073_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=0ZBjHVUL_nQAX9rj6cH&oh=70f7e9a044571ed6a35d104f31776e59&oe=5ED8E45E" alt="" class="img-fluid rounded-circle">
+            </div>
+
+                <p class="lead">    
+     I feel so lucky to have you as my friend. Hope your birthday is as special as you are.May all of your dreams come true. Thanks for being such a great friend. Happy birthday!<br>
+      <p class="lead">    
+    I am looking forward to many more years of friendship and birthdays with you. Have a fantastic birthday!<br>
+    </p><br><br>
+     <p class="lead">    
+    I want to wish you all the love and happiness in the world, all of which you deserve. Happy birthday my friend!
+</p>                    
+
+            <div class=" col-lg-6">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- connect -->
+
+
+    <div class="container-fluid padding">
+        <hr class="my-4">
+        <div class="text-center row padding">
+            <div class="col-12 ">
+                <h2 class="display-4"> shoutout to my friends page</h2>
+            </div>
+            <div class="col-12 social padding ">
+                <a href="https://www.instagram.com/_drolls_/"><img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/95310160_683906299039664_8251415079434584064_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_ohc=v5WbuOm4PBoAX-jqguF&oh=bf1cc5fa6e1e9b7af85df6fb94a5941e&oe=5ED9DC02"></i></a>
+                <a href="https://www.instagram.com/humor.buzz/"><img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/94750951_250558649475271_5248344353746714624_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_ohc=5YRVV8GV4Q8AX-2PLXM&oh=1bd65fc396a610bb69e02b2f9c21cd9a&oe=5ED7631B"></a>
+                <a href="https://www.instagram.com/_art.af_/"> <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/91328487_2246775898951118_4682424958721196032_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_ohc=kt1w65BcLx8AX_XSrEL&oh=1f3dae74dc763dbb5e5540336e3a350d&oe=5ED69D3B"></a>
+                <a href="https://www.instagram.com/rajrekhafilms/"><img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/93817353_2439929619441728_2443125780494942208_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_ohc=HnqjjSj78pwAX-Hrkkd&oh=6884d905921763f50ecc3437a8695259&oe=5ED6C1FD"></a>
+                <a href="https://www.instagram.com/_medini.03_/"><img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/83920025_2552071641777563_7836663994763968512_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_ohc=kMiEu0_9pdUAX8Sr6Tj&oh=f2e06daa42aec4416809af5b9d172b55&oe=5ED7411C"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="container-fluid padding ">
+            <div class="row text-center">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h2 class="padding2">template made by rehan khan</h2>
+                    <hr class="light">
+                    <p>template edited by seven07</p>
+                
+                    <p>template contributed by-<a href="https://www.instagram.com/_medini.03_/"> medini </a> <br><a href="https://www.instagram.com/shradhabhat9048/">shradha</a><br><a href="https://www.instagram.com/__srijamp__/">srikant</a><br><a href="https://www.instagram.com/nimishboda/">nimish</a>
+                    </p>
+<hr class="light">
+                    <p>for similar please contatct<a href="https://www.instagram.com/rehankhan12.21/">rehan khan</a> </p>
+                
+                </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
