@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>HWA bala rashmi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: #222;
+        }
+        
+        .navbar {
+            padding: .8rem;
+        }
+        
+        .navbar-nav li {
+            padding-right: 20px;
+        }
+        
+        .nav-link {
+            font-size: 1.1em !important;
+        }
+        
+        .carousel-inner>.item {
+            -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+            -o-transition: -o-transform 1.2s ease-in-out !important;
+            transition: transform 1.2s ease-in-out !important;
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .btn-outline-light {
+            color: #000;
+            background-color: rgb(54, 50, 50);
+            border-color: rgb(54, 50, 50);
+        }
+        
+        .carousel-caption {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .carousel-caption h1 {
+            font-size: 500%;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 15px #000;
+        }
+        
+        .btn-info {
+            background-color: rgb(131, 125, 138);
+            border: 1px solid rgb(131, 125, 138);
+        }
+        
+        .btn-info:hover {
+            background-color: rgb(182, 172, 172);
+            border: 1px solid rgb(182, 172, 172);
+        }
+        
+        .jumbotron {
+            padding: 1rem;
+            border-radius: 0;
+        }
+        
+        .padding {
+            padding-bottom: 2rem;
+        }
+        
+        .welcome {
+            width: 75%;
+            margin: 0 auto;
+            padding-top: 2rem;
+        }
+        
+        .welcome hr {
+            border-top: 2px solid #b4b4b4;
+            width: 95%;
+            margin-top: .3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .fa-html5 {
+            color: orangered;
+        }
+        
+        .fa-bold {
+            color: rgb(63, 63, 158);
+        }
+        
+        .fa-css3 {
+            color: #2163af;
+        }
+        
+        .fa-html5,
+        .fa-bold,
+        .fa-css3 {
+            font-size: 3em;
+            margin: 1rem;
+        }
+        
+        .fixed {
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .social a {
+            font-size: 3em;
+            padding: 3rem;
+        }
+        
+        .fa-facebook {
+            color: #3b5998;
+        }
+        
+        .fa-twitter {
+            color: #00aced;
+        }
+        
+        .fa-google-plus {
+            color: #dd4b39;
+        }
+        
+        .fa-instagram {
+            color: #3f729b;
+        }
+        
+        .fa-youtube {
+            color: #bb0000;
+        }
+        
+        .fa-facebook:hover,
+        .fa-twitter:hover,
+        .fa-google-plus:hover,
+        .fa-instagram:hover,
+        .fa-youtube:hover {
+            color: #d5d5d5;
+        }
+        
+        footer {
+            background-color: #3f3f3f;
+            color: #d5d5d5;
+            padding-top: 2rem;
+        }
+        
+        hr.light {
+            border-top: 1px solid #dfdfdf;
+            width: 75%;
+        }
+        
+        .btn {
+            border-radius: 30px;
+        }
+        
+        .img-fluid {
+            border: 5px solid gainsboro;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        .fa-apple {
+            font-size: 2em;
+        }
+        
+        .padding2 {
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="carousel slide" data-ride="carousel" id="slides">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                    <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/64430461_139717970458527_2715778005570237557_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=MPJiglujQoMAX-b3yB6&oh=c1f5cd44584c56b7111f4e1a3b0b4ded&oe=5EF028E9" alt="" class="fluid">
+            <div class="carousel-caption">
+                    <!-- <h1 class="animated infinite bounce delay-s">Example</h1> -->
+                    <h1 class="display-2 animated once fadeInRight	 delay-1s">Happy</h1>
+    </div>
+            </div>
+            <div class="carousel-item">
+                  <img src="https://instagram.fbom2-1.fna.fbcdn.net/v/t51.2885-15/e35/89849844_123200715935460_2006492414707931081_n.jpg?_nc_ht=instagram.fbom2-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=gnOqR_vpJSgAX-wUXWj&oh=f246cbf0bd1408840cff6d9a203b1578&oe=5EEF3577" alt="" class="fluid">
+              <div class="carousel-caption">
+                    <h1 class="display-3 animated once zoomIn delay-1s">wedding</h1>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=f5ef788c59&attid=0.6&permmsgid=msg-a:r-8284756693032213691&th=17232533356f0963&view=fimg&realattid=17232532b86601456d97&disp=thd&attbid=ANGjdJ_nSr4NE7Try0wwgIw48RYeOnlhd-eg3sQcaY2nION64_m1cp4qgo5zW9sgCTnpEtErl6patR67Sy7lQYOpAyvc6H9CF6ym76iAS8j4lEuyDbCvK1qN_6wptJA&ats=2524608000000&sz=w980-h1672" alt="" class="fluid">
+            
+                <div class="carousel-caption">
+                    <h1 class="display-2 animated once zoomInRight delay-1s">anniversary</h1>
+
+                    </h2>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- welcome -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+    <h1 class="display-4">Happy Anniversary!!!</h1>            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">
+                    Best wishesh to ypu both on the momentous occasion .<br>
+                    !Congratulations!
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
