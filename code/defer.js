@@ -4,13 +4,15 @@ base_url='https://nimish07-ai.github.io/code/';
 first=false;
 debug=false;
 
-if(window.location.href.split('/')[3]=='code')
-{
-    page=window.location.href.split('/')[4]
-}
-else{
-    page=window.location.href.split('/')[3]
-}
+// if(window.location.href.split('/')[3]=='code')
+// {
+//     page=window.location.href.split('/')[4]
+// }
+// else{
+//     page=window.location.href.split('/')[3]
+// }
+len=window.location.href.split('/').length
+page=page=window.location.href.split('/')[len-1]
 
 
 
