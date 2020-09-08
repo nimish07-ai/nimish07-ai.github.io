@@ -1,5 +1,5 @@
 {
-    "head":"textFile/head_html.txt",
-    "footer":"textFile/footer_html.txt"
+    "catogree_list":["nimsih","nimish2"],
+    "catogree_img_url_without_base":[]
 
 }
