@@ -1395,7 +1395,7 @@ function home()
                 <input type="checkbox"  name="vehicle2" value="option2" class='option'>
                 <label for="vehicle2"> option 2</label><br>
         </form>
-        <a href="/contact-us.html" class="catogree-name-quire-to-contactus"><buttton style="background-color: aqua;" >click on it to go to contact-us</buttton></a>
+        <a href="/nandaelectronic2/contact-us.html" class="catogree-name-quire-to-contactus"><buttton style="background-color: aqua;" >click on it to go to contact-us</buttton></a>
 
     
     </div>`
