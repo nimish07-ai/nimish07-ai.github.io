@@ -1,5 +1,5 @@
-// base_url='https://nimish07-ai.github.io/defer_code/';
-// base_to_url='https://nimish07-ai.github.io/defer_code/';
+ base_url='https://nimish07-ai.github.io/nandaelectronic/';
+ base_to_url='https://nimish07-ai.github.io/nandaelectronic/';
 //bdy is important
 editable_bdy_class='bdy'
 
