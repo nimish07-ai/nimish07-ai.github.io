@@ -12,7 +12,7 @@ Logger=[]
 //  Logger.  push(`data=>`)
 
 SETUP={
-    BASE_URL:`http://127.0.0.1:5500/`,
+    BASE_URL:`https://nimish07-ai.github.io//try/`,
     js_code:['html_CODE.js',
     'style_code.js',
     'js_code.js'
