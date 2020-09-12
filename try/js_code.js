@@ -475,7 +475,7 @@ js_CODE={
 
 async function js_code_asyc()
 {
-    if(seven.page=="home.html")
+    if(seven.page =='home.html' ||seven.page =='index.html' ||seven.page =='')
     {
         if(document.querySelector(".seven")!= null)
         {
