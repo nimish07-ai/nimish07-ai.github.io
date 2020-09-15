@@ -17,7 +17,7 @@ employee=[{"sr_no":"1","name":"rehankhan","email":"rehankhan@nandaelectronics.co
 check_page_name=false
 SETUP={
     BASE_URL:`https://nimish07-ai.github.io/`,
-    js_code:['html_CODE.js',
+    js_code:['HTML_CODE.js',
     'style_code.js',
     'js_code.js'
     ],
