@@ -13,7 +13,7 @@ print(Check)
 
 
 
-# #to check if user present
+# #to check if user present true present false no
 Check=seven.Seven_add_new("Seven")
 print(Check)
 #check liat.txt
