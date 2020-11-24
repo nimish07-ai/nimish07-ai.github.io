@@ -774,7 +774,7 @@ function data_setter_2()
     
     $qs(".image_recipee").innerHTML=`<img src="${$s.information.image}" style="width:100%; height:100%;">`
     $qs(".title_inner").innerText   =`${$s.information.title}`
-    $qs(".summary_inner").innerText=$s.information.summary
+    $qs(".summary_inner").innerHTML=$s.information.summary
     table_ceator()
     table_ceator_2()
 }
