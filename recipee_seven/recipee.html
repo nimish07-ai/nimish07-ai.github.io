@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="./abc.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/tabulator-tables@4.8.4/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.4/dist/js/tabulator.min.js"></script>
+
+</head>
+<body>
+    <div class="nav_bar">
+        <div class="logo">
+            <img src="./abc.svg" style="width: inherit; height: inherit ;" >
+        </div>
+        <div class="search">
+       
+                <input type="text" class="search_box_inner"   placeholder="Search for Dishes.." style=" width: 100% ;height: 50%; top:10px;">
+                <div class="div_cross">
+                    <svg width="24" class="cross" height="24"style="position: inherit; stroke: #189ca2b8;  "      xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                        <path  class="crosss_path"style="display: block;" d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"/>
+                    </svg>
+                
+            </div>
+        </div>
+        <div class="chef_img">
+            <div class="chef_img_inner">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; width:100%; height:100%;" xml:space="preserve">
+           <g>
+               <g>
+                   <path d="M367.443,317.755l-67.484-10.417c-1.971-0.299-3.993,0.094-5.699,1.126c-23.598,14.179-52.921,14.179-76.519,0
+                       c-1.715-1.032-3.72-1.433-5.699-1.126l-67.484,10.417c-29.348,4.496-50.66,29.331-50.66,59.021V512h17.063V376.776
+                       c0-21.209,15.22-38.938,36.191-42.154l64.524-9.956c27.625,15.357,61.043,15.34,88.651,0l64.524,9.956
+                       c20.962,3.216,36.182,20.945,36.182,42.154V512h17.063h0.008V376.776C418.102,347.086,396.791,322.251,367.443,317.755z"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <path d="M324.248,0.111c-13.94,0-26.337,6.723-34.126,17.089c-7.789-10.366-20.185-17.089-34.126-17.089
+                       c-13.915,0-26.286,6.697-34.083,17.037C214.157,6.783,201.804,0.043,187.889,0c-0.051,0-0.094,0-0.145,0
+                       c-23.462,0-42.581,19.042-42.657,42.512c-0.051,17.234,10.187,32.531,25.594,39.245v80.452c0,4.709,3.822,8.531,8.531,8.531
+                       h153.567c4.718,0,8.531-3.822,8.531-8.54V81.749c15.297-6.672,25.535-21.858,25.594-38.955c0-0.009,0-0.017,0-0.026
+                       C366.905,19.247,347.769,0.111,324.248,0.111z M330.646,67.441c-3.762,0.973-6.399,4.368-6.399,8.258v77.978H187.744V75.691
+                       c0-3.89-2.636-7.286-6.399-8.258c-11.338-2.935-19.23-13.156-19.196-24.869c0.043-14.086,11.518-25.509,25.594-25.509
+                       c0.026,0,0.06,0,0.085,0c14.077,0.051,25.501,11.509,25.509,25.577c0,0.043,0,0.094,0,0.136c0,4.709,3.814,8.523,8.523,8.531
+                       h0.009c4.701,0,8.514-3.805,8.531-8.506c0-0.009,0-0.017,0-0.026c0-0.034,0-0.06,0-0.085
+                       c0.043-14.077,11.509-25.509,25.594-25.509c14.111,0,25.594,11.483,25.594,25.594c0,4.709,3.814,8.531,8.531,8.531
+                       c4.718,0,8.531-3.822,8.531-8.531c0-14.111,11.483-25.594,25.594-25.594c14.103,0,25.577,11.475,25.594,25.577
+                       C349.799,54.38,341.908,64.532,330.646,67.441z"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <path d="M332.779,153.678H179.212c-4.709,0-8.531,3.822-8.531,8.531v51.189c0,47.051,38.272,85.315,85.315,85.315
+                       s85.315-38.272,85.315-85.315v-51.189C341.311,157.5,337.497,153.678,332.779,153.678z M324.248,213.398
+                       c0,37.641-30.62,68.252-68.252,68.252s-68.252-30.62-68.252-68.252v-42.657h136.504V213.398z"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="204.841" y="273.093" width="17.063" height="42.657"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="290.156" y="273.093" width="17.063" height="42.657"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <path d="M273.315,322.251l-7.158,28.615l-105.304,16.201c-4.163,0.64-7.235,4.223-7.235,8.429V512h17.063V382.825l103.675-15.954
+                       c3.387-0.52,6.134-3.029,6.97-6.364l8.531-34.126L273.315,322.251z"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="204.841" y="443.722" width="17.063" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="204.841" y="392.534" width="17.063" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="204.841" y="494.911" width="17.063" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="290.156" y="443.722" width="17.063" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="290.156" y="392.534" width="17.063" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="290.156" y="494.911" width="17.063" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="341.345" y="384.002" width="17.063" height="127.972"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="204.841" y="119.526" width="127.972" height="17.063"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="273.093" y="93.932" width="17.063" height="34.126"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   <rect x="221.904" y="93.932" width="17.063" height="34.126"/>
+               </g>
+           </g>
+           <g>
+               <g>
+                   
+                       <rect x="226.116" y="323.774" transform="matrix(0.9701 -0.2425 0.2425 0.9701 -75.7794 67.0945)" width="17.062" height="35.174"/>
+               </g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           </svg>
+            </div>
+            <div class="name"><p>nimish</p></div>
+        </div>
+    </div>
+    <div class="recipee_display">
+        <div class="section_a">
+            <div class="image_recipee"></div>
+            <div class="quick"></div>
+        </div>
+        <div class="section_b">
+            <div class="title">
+                <p class="title_inner"> </p>
+            </div>
+            <div class="summary">
+                <p class="summary_inner"> </p>
+            </div>
+            <div class="ingrident">
+                <div class="ingrident_inner"></div>
+            </div>
+            <div class="steps">
+                <div class="steps_inner"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search_modal" >
+        <a href="http://"><div class="search_inner" ></div></a>
+        <a href="http://"><div class="search_inner" ></div></a>
+        <a href="http://"><div class="search_inner" ></div></a>
+        <a href="http://"><div class="search_inner" ></div></a>
+     </div>
+    <style>
+        
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777575; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #189ca2b8; 
+}
+#example-table .tabulator-row table{
+    vertical-align: middle;
+    border-collapse:collapse;
+}
+
+#example-table .tabulator-row table img{
+    border:2px solid #ccc;
+}
+
+#example-table .tabulator-row table tr td{
+     border:none;
+}
+
+#example-table .tabulator-row table tr td:first-of-type{
+    width:60px;
+}
+
+#example-table .tabulator-row table tr td div{
+    padding:5px;
+}
+</style>
+<style> 
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+            grid-gap: 10px;
+            display: grid;
+            grid-template-rows: 13% 90%;
+            grid-template-columns :100% ;
+            grid-template-areas: "nav_bar"
+                                " recipee_display";
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+            font-family: 'Abel', sans-serif;
+
+        }
+        .nav_bar
+        {
+
+            grid-area:nav_bar ;
+            display: grid;
+            background: #189ca2b8; 
+            grid-template-columns: 10% 70% 20%;
+            grid-template-rows: 100%;
+            grid-template-areas: " logo search chef_img";
+        }
+        .logo
+        {
+            grid-area: logo;
+            display: grid;
+            width: 100%;
+            height: 100%;
+        }
+        .search
+        {
+            grid-area: search;
+        
+            /* grid-area: box; */
+                display: flex;
+                align-items: center;
+                border-radius: 56px;
+                display: grid;
+                grid-template-columns: 90% 10%;
+                grid-template-rows: 10% 80% 10%;
+                grid-template-areas: ". ."
+                                    "search_inner  div_cross "
+                                    ". .";
+        }
+        .search_box{
+            } 
+
+                   
+        .search_box_inner
+        {
+         
+        border-bottom: black solid 0.1px;   
+        display: grid;
+        grid-template-columns: 20% 80%;
+        /* grid-area: search_inner; */
+            grid-area: search_inner;
+            text-align: center;
+        }
+        .div_cross
+        {
+            grid-area: div_cross;
+            display: grid;
+            justify-content: center;
+        }
+        .chef_img
+        {
+            display: grid;
+            grid-area: chef_img;
+            grid-template-columns: 40% 60%;
+            grid-template-rows:100% ;
+            grid-auto-flow: column;
+            border: solid;
+            border-radius: 10px;
+        }
+        .name
+        {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .recipee_display
+        {
+            grid-area: recipee_display;
+            /* opacity: 0.7; */
+            background-image: url("./blurr.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+         }
+    </style>
+<style>/*modal  */
+ .image {
+        height: 100%;
+          background: #F6F6F6;
+            display: grid;
+          animation-duration: 1.25s;
+          animation-fill-mode: forwards;
+          animation-iteration-count: infinite;
+          animation-name: placeHolderShimmer;
+          animation-timing-function: linear;
+          background: #F6F6F6;
+          background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+          background-size: 800px 104px;
+          position: relative;
+          width: inherit;
+          border-radius: inherit;
+          padding: 0px;
+         
+    }
+.search_modal
+    {
+        position: absolute;
+        left :0px;
+        top:0px;
+        z-index: 10000;
+        width: 300px; 
+        height:300px;
+        display: block;
+        background-color: #eeeeee;
+        display: none;
+    }
+    .search_inner
+    {
+        overflow: hidden;
+     border-bottom: black solid 0.1px;   
+     display: grid;
+     grid-template-columns: 20% 80%;
+     background-color: inherit;
+    }
+    .search_box_inner::after
+    {
+        content: " - Remember this";
+    }
+    .dishes_name:hover
+    {
+        text-decoration: underline;
+        cursor: pointer; 
+    }
+    .image_search_inner
+    {
+        border-radius: 20%;
+        width: inherit;
+        height: 50px;
+
+    }
+
+</style>
+
+<style>/* recipee data  */
+.recipee_display
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-auto-flow: column;
+}
+.section_a
+{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 100%;
+    
+}
+.section_b
+{
+    display: none;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 30% 30% 30% ;
+    grid-auto-flow: row;
+    overflow-y: scroll;
+}
+
+.title
+{
+    background-color: #545051d1;
+    opacity: 0.8;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.title_inner
+{
+    text-align: center;
+    width: 100%;
+    /* height: 100%; */
+}
+.summary
+{
+    background-color: #4e4c4c;
+    opacity: 0.5;
+    
+    overflow-x: hidden;
+}
+.ingrident
+{
+    background-color: #4e4c4c;
+    opacity: 0.5;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    padding: 30px;
+}
+.steps
+{
+    background-color: #4e4c4c;
+    opacity: 0.5;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    padding: 30px;
+
+}
+</style>
+
+</body>
+</html>
