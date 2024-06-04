@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40ffc066cc102d7d4611385057c2ca86",
+    "revision": "e3c080e08c930c1a5a4c0bc159b4e117",
     "url": "/index.html"
   },
   {
-    "revision": "55de3a4041f9edd43a0e",
+    "revision": "dbe61881e5a541d20282",
     "url": "/static/css/main.f6192139.chunk.css"
   },
   {
-    "revision": "79f63c5a224bfc3f5a35",
-    "url": "/static/js/2.3ebe856c.chunk.js"
+    "revision": "1d25d6fe231f3b56c797",
+    "url": "/static/js/2.3953cb0b.chunk.js"
   },
   {
-    "revision": "55de3a4041f9edd43a0e",
-    "url": "/static/js/main.237970eb.chunk.js"
+    "revision": "dbe61881e5a541d20282",
+    "url": "/static/js/main.e72fe3b1.chunk.js"
   },
   {
     "revision": "5fb5a90af5693abc7615",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/abcdef.03a693c6.jpeg"
   },
   {
+    "revision": "299d418608b2ffed6a0e149d2f047a5d",
+    "url": "/static/media/abcdef.jpeg_Zone.299d4186.Identifier"
+  },
+  {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "/static/media/address_image.16559172.svg"
   },
@@ -74,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d2fe247d707ec93be063696ee39e8eb",
     "url": "/static/media/bvc_logo.5d2fe247.png"
+  },
+  {
+    "revision": "0f9175e1c09ebc2b72eea5717cda0a7e",
+    "url": "/static/media/bvc_logo.png_Zone.0f9175e1.Identifier"
+  },
+  {
+    "revision": "03179c18fdc390d738da1d550630fbee",
+    "url": "/static/media/bvp_logo.jpg_Zone.03179c18.Identifier"
   },
   {
     "revision": "cacbc42b661f39344af81c631d8d36a9",
@@ -204,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/iiita.73f5c2ea.png"
   },
   {
+    "revision": "b2e5511f29a5f2aeabc4d90dd3fe8826",
+    "url": "/static/media/iiita.png_Zone.b2e5511f.Identifier"
+  },
+  {
     "revision": "571a8584e69ecfbe326c8b8385fbbf54",
     "url": "/static/media/iiitk_logo.571a8584.png"
   },
@@ -232,12 +248,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/muffito_logo.069938a8.png"
   },
   {
-    "revision": "686c69d92a0986f213db34983219a1d0",
-    "url": "/static/media/nimish.686c69d9.png"
+    "revision": "35202507c699f9e21a20a2ab2c5e7201",
+    "url": "/static/media/nimish.35202507.png"
+  },
+  {
+    "revision": "60161811008f5a66ef33357729957f07",
+    "url": "/static/media/nimish.png_Zone.60161811.Identifier"
   },
   {
     "revision": "bfb1c1e6b245f05435614582676339bd",
     "url": "/static/media/nimish1.bfb1c1e6.webp"
+  },
+  {
+    "revision": "5f3130dfc89429070aa7cbd4442b98dc",
+    "url": "/static/media/nimish1.webp_Zone.5f3130df.Identifier"
   },
   {
     "revision": "95a12a2b8c3149cce2175679755c4b4d",
@@ -278,5 +302,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8557126d266845973de963536cabe93a",
     "url": "/static/media/ui_ux_design.8557126d.svg"
+  },
+  {
+    "revision": "cbda1bffbe6dd5663241c7b4587b801f",
+    "url": "/static/media/ui_ux_design.svg_Zone.cbda1bff.Identifier"
+  },
+  {
+    "revision": "24fd63999af53fd2d889f092f1e4c7f8",
+    "url": "/static/media/wearpakau.png_Zone.24fd6399.Identifier"
   }
 ]);
