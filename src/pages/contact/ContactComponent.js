@@ -24,12 +24,13 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              {/* <div className="contact-heading-img-div">
+              <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assests/images/nimish.png`)}
                   alt=""
+                  style={{"border-radius": "50%"}}
                 />
-              </div> */}
+              </div>
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
